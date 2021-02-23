@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - ipfsd-ctl > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > libp2p-crypto > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > ipld-dag-pb > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > peer-id > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > peer-id > libp2p-crypto > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > peer-info > peer-id > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > peer-info > peer-id > libp2p-crypto > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'
+    - ipfsd-ctl > ipfs-http-client > peer-info > peer-id > libp2p-crypto > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2021-02-23T13:08:52.232Z'

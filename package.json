@@ -12,7 +12,9 @@
     "update:submodules": "git submodule update --init --recursive",
     "update:tronweb": "./scripts/update-tronweb.sh",
     "re-install": "scripts/clean-all-modules.sh && lerna bootstrap",
-    "build:tronweb:dev": "cd packages/tronwrap/tronweb && yarn build:dev"
+    "build:tronweb:dev": "cd packages/tronwrap/tronweb && yarn build:dev",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "lerna": "^2.11.0"
@@ -23,6 +25,8 @@
     ]
   },
   "dependencies": {
-    "ipfsd-ctl": "^0.42.2"
-  }
+    "ipfsd-ctl": "^2.0.0",
+    "snyk": "^1.459.0"
+  },
+  "snyk": true
 }
