@@ -6,11 +6,11 @@
     "async": "2.6.1",
     "lodash": "^4.17.11",
     "mkdirp": "^0.5.1",
-    "truffle-artifactor": "^3.0.7",
+    "truffle-artifactor": "^4.0.0",
     "truffle-compile": "^3.0.13",
     "truffle-config": "^1.0.6",
     "truffle-expect": "^0.0.4",
-    "truffle-resolver": "^4.0.4"
+    "truffle-resolver": "^5.0.0"
   },
   "main": "index.js",
   "scripts": {},
